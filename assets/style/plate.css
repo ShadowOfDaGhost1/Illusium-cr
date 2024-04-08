@@ -1,0 +1,121 @@
+body{
+    background-image: url(/assets/images/Fon.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    margin-top: 0px;
+    font-family: "Noto Sans Display";
+    font-weight: 400;
+}
+
+.noto-sans display-semibold{
+    font-family: "Noto Sans Display";
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 500;
+  }
+
+.cwbutton{
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: 40px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #86E0D1;
+    border: 2px solid #FFFEFD;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/*<--MAIN-->*/
+
+.platenft{
+    position: absolute;
+    border-radius: 20%;
+    top: 500px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.plate-nft-mint{
+    list-style-type: none;
+    border-radius: 40px;
+}
+
+.li{
+    list-style-type: none;
+}
+
+.main-container{
+    background-image: url(/assets/images/nft_mint_page.svg);
+    width: 750px;
+    height: 700px;
+    top: 550px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10%;
+}
+
+.main-container img{
+    margin-left: 350px;
+    margin-top: 80px;
+}
+
+.main-container h1{
+    font-size: 70px;
+    top: 30px;
+    right: 520px;
+    position: absolute;
+    color: #FC7661;
+}
+
+.text-with-border {
+    display: inline-block;
+    position: absolute;
+    padding: 10px 30px;
+    border: #1ABC9C;
+    border-radius: 25px;
+    background-color:#1ABC9C;
+    top: 170px;
+    right: 575px;
+}
+
+.mintbutton{
+    display: inline-block;
+    padding: 7px 7px;
+    margin-right: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #252525;
+    background-color: #FECF8F;
+    border: 2px solid #FECF8F;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    position: absolute;
+    top: 280px;
+    left: 58px;
+}
+
+.hr{
+    color: #ff5733;
+}
+
+.socialki{
+    margin-left: 1700px;
+}

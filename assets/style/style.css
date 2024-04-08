@@ -1,0 +1,82 @@
+
+body{
+    background-image: url(/assets/images/Fon.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    margin-top: 0px;
+  font-family: "Noto Sans Display";
+ 
+}
+
+.noto-sans display-semibold{
+    font-family: "Noto Sans Display";
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 500;
+  }
+
+.cwbutton{
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: 40px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #86E0D1;
+    border: 2px solid #FFFEFD;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.welcome {
+    margin-top: 350px;
+    padding-left: 470px;
+    font-size: 80px; 
+    color: #1ABC9C;
+}
+
+.not {
+    color: #ff5733; 
+}
+
+.nnot {
+    color: #ff5733; 
+}
+
+
+ul{
+    margin-top: 1200px;
+    list-style-type: none;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 200px;
+}
+
+.hr{
+    color: #ff5733;
+}
+
+.socialki{
+    margin-left: 1700px;
+}
+
